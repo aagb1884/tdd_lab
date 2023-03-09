@@ -27,7 +27,7 @@ class HighScoresTest(unittest.TestCase):
 
     def test_personal_top_three(self):
         scores = [100, 0, 90, 30]
-        expected = 100, 90, 30
+        expected = [100, 90, 30]
         self.assertEqual(expected, personal_top_three(scores))
 
     # Test ordered from highest tp lowest
