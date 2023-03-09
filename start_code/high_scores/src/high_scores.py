@@ -3,7 +3,7 @@ def latest(scores):
 
 
 def personal_best(scores):
-    return 100
+    return max(scores)
 
 
 def personal_top_three(scores):
