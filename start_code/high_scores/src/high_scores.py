@@ -13,7 +13,7 @@ def personal_top_three(scores):
 def high_to_low(scores):
     return sorted(scores, reverse = True)
 
-def tied_scores(scores):
-    return sorted(scores, reverse = True)[:3]
-    
+# def tied_scores(scores):
+#     return personal_top_three(scores)
+    # if you've already got this function DON'T REPEAT IT
     
