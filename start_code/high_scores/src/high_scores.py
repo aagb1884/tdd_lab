@@ -10,8 +10,10 @@ def personal_top_three(scores):
     return sorted(scores, reverse = True)[:3]
 
 
+def high_to_low(scores):
+    return sorted(scores, reverse = True)
 
-# Your task is to write methods that return the highest score 
-# from the list, the last added score and the three highest scores.
-
-# In this exercise, you're going to use and manipulate lists. 
+def tied_scores(scores):
+    return sorted(scores, reverse = True)[:3]
+    
+    
